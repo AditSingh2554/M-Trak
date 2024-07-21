@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    background-image: url(photos/heroimg.jpg);
+    background-size: cover;
+    height: 680px;
+    opacity: 0.9;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.main-text{
+    font-size: 100px;
+    text-transform: uppercase;
+    position: relative;
+    top: 17%;
+    left: 10%;
+    color: white;
+}
+
+.slogan{
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    top: 47%;
+    color: white;
+}
+
+.btn{
+    width: 180px;
+    height: 59px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: white solid 1px;
+    border-radius: 50px;
+    position: relative;
+    top: 52%;
+}
+
+.page2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: whitesmoke;
+}
+
+.email{
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+    background-color: transparent;
+    position: relative;
+    top: 25%;
+    left: 38%;
+}
+
+.em{
+    text-decoration: none;
+    color: black;
+}
+
+.mail{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+.tel{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+
+.m2, .t2{
+    text-decoration: none;
+    color: black;
+}
+
+.page2-img{
+    width: 100%;
+}
+
