@@ -40,6 +40,12 @@
     border-radius: 50px;
     position: relative;
     top: 48%;
+    display: block;
+}
+
+.call{
+    text-decoration: none;
+    color: white;
 }
 
 .page2{
@@ -59,6 +65,7 @@
     position: relative;
     top: 25%;
     left: 38%;
+    display: block;
 }
 
 .em{
@@ -70,14 +77,14 @@
     display: block;
     text-align: center;
     position: relative;
-    top: 40%;
+    top: 45%;
 }
 
 .tel{
     display: block;
     text-align: center;
     position: relative;
-    top: 45%;
+    top: 40%;
 }
 
 .m2, .t2{
@@ -91,11 +98,6 @@
 
 @media only screen and (max-width:768px) {
 
-    html,
-    body{
-        width: 100%;
-    }
-
     .slogan{
         font-size: 20px;
         left: -130%;
@@ -106,7 +108,13 @@
     }
 
     .page2{
-        grid-template-rows: 250px;
+        grid-template-columns: 100%;
+        grid-template-rows: 300px;
+    }
+
+    .page2-text{
+
+        text-align: center;
     }
 
     .page2-img{
@@ -114,15 +122,8 @@
     }
 
     .email{
-        left: 60%;
-    }
-
-    .mail{
-        left: 40%;
-    }
-
-    .tel{
-        left: 48%;
+        display: grid;
+        align-items: center;
     }
 
 }
