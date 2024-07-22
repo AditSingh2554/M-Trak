@@ -5,9 +5,9 @@
 }
 
 .main{
-    background-image: url(photos/heroimg.jpg);
+    background-image: url(photos/hero.jpg);
     background-size: cover;
-    height: 680px;
+    height: 690px;
     opacity: 0.9;
     display: grid;
     grid-template-columns: 60% 40%;
@@ -26,7 +26,7 @@
     font-size: 30px;
     text-transform: uppercase;
     position: relative;
-    top: 47%;
+    top: 43%;
     color: white;
 }
 
@@ -39,7 +39,7 @@
     border: white solid 1px;
     border-radius: 50px;
     position: relative;
-    top: 52%;
+    top: 48%;
 }
 
 .page2{
@@ -89,3 +89,40 @@
     width: 100%;
 }
 
+@media only screen and (max-width:768px) {
+
+    html,
+    body{
+        width: 100%;
+    }
+
+    .slogan{
+        font-size: 20px;
+        left: -130%;
+    }
+
+    .btn{
+        left: -130%;
+    }
+
+    .page2{
+        grid-template-rows: 250px;
+    }
+
+    .page2-img{
+        display: none;
+    }
+
+    .email{
+        left: 60%;
+    }
+
+    .mail{
+        left: 40%;
+    }
+
+    .tel{
+        left: 48%;
+    }
+
+}
